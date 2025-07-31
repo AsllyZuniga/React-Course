@@ -7,6 +7,6 @@ import "./styles.css";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <FirstApp />
+    <FirstApp/>
   </StrictMode>
 );
