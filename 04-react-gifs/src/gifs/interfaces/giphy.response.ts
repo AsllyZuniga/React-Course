@@ -1,5 +1,3 @@
-// giphy.response.ts
-
 export interface GiphyResponse {
   data: GiphyGif[];
   meta: Meta;
@@ -7,27 +5,27 @@ export interface GiphyResponse {
 }
 
 export interface GiphyGif {
-  type: Type;                 // <- string union (no enum)
+  type: Type; // <- string union (no enum)
   id: string;
   url: string;
   slug: string;
   bitly_gif_url: string;
   bitly_url: string;
   embed_url: string;
-  username: string;           // <- string (no enum)
+  username: string; // <- string (no enum)
   source: string;
   title: string;
-  rating: Rating;             // <- string union (no enum)
+  rating: Rating; // <- string union (no enum)
   content_url: string;
   source_tld: string;
   source_post_url: string;
   is_sticker: number;
-  import_datetime: string;    // <- la API devuelve string, no Date
+  import_datetime: string; // <- la API devuelve string, no Date
   trending_datetime: string;
   images: Images;
   analytics_response_payload: string;
   analytics: Analytics;
-  alt_text?: string;          // <- a veces no viene
+  alt_text?: string; // <- a veces no viene
   user?: User;
 }
 
@@ -64,7 +62,7 @@ export interface Images {
   preview: DownsizedSmall;
   preview_gif: The480_WStill;
   preview_webp: The480_WStill;
-  '480w_still': The480_WStill;
+  "480w_still": The480_WStill;
   hd?: DownsizedSmall;
 }
 
@@ -89,8 +87,8 @@ export interface FixedHeight {
   url: string;
   mp4_size?: string;
   mp4?: string;
-  webp_size?: string;   // algunas variantes pueden faltar
-  webp?: string;        // idem
+  webp_size?: string; // algunas variantes pueden faltar
+  webp?: string; // idem
   frames?: string;
   hash?: string;
 }
@@ -101,15 +99,15 @@ export interface Looping {
 }
 
 // 👇 Tipos como string union (más flexibles que enum)
-export type Rating = 'y' | 'g' | 'pg' | 'pg-13' | 'r' | string;
-export type Type = 'gif' | 'sticker' | 'video' | string;
+export type Rating = "y" | "g" | "pg" | "pg-13" | "r" | string;
+export type Type = "gif" | "sticker" | "video" | string;
 
 export interface User {
   avatar_url: string;
   banner_image: string;
   banner_url: string;
   profile_url: string;
-  username: string;      // <- string (no enum)
+  username: string; // <- string (no enum)
   display_name: string;
   description: string;
   instagram_url: string;
