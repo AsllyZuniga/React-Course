@@ -1,3 +1,4 @@
+//
 import { useState } from "react";
 
 import { GifList } from "./gifs/components/GifList";
