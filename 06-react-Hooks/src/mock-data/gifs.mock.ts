@@ -1,3 +1,4 @@
+//
 import type { Gif } from '../gifs/interfaces/gif.interface';
 
 export const mockGifs: Gif[] = [
