@@ -6,7 +6,7 @@ export const FocusScreen = () => {
   const handleClick = () => {
     console.log(inputRef.current?.value);
     inputRef.current?.select();
-    // inputRef.current?.focus();
+ 
   };
 
   return (
