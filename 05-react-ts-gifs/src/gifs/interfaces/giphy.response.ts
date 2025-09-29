@@ -1,3 +1,4 @@
+//
 export interface GiphyResponse {
   data: GiphyGif[];
   meta: Meta;
