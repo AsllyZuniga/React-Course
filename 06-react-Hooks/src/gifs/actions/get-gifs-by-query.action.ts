@@ -1,3 +1,4 @@
+//
 import { giphyApi } from '../api/giphy.api';
 
 import type { GiphyResponse } from '../interfaces/giphy.response';
