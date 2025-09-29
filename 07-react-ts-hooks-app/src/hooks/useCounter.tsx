@@ -14,7 +14,7 @@ export const useCounter = (initialValue: number = 1) => {
   };
 
   return {
-    // Properties
+    // Prop
     counter,
 
     // Methods
