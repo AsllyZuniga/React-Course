@@ -1,3 +1,4 @@
+//
 import { useTrafficLight } from '../hooks/useTrafficLight';
 
 export const TrafficLightWithHook = () => {
