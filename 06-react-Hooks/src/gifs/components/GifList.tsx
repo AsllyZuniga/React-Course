@@ -1,3 +1,4 @@
+//
 import type { FC } from 'react';
 import type { Gif } from '../../mock-data/gifs.mock';
 
