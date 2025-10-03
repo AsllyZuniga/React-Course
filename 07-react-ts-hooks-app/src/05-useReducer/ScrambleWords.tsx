@@ -1,4 +1,3 @@
-// ! Importante:
 // Es necesario componentes de Shadcn/ui
 // https://ui.shadcn.com/docs/installation/vite
 
