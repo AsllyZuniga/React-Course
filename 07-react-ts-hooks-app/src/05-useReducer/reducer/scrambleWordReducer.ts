@@ -12,6 +12,7 @@ export interface ScrambleWordsState {
   totalWords: number;
 }
 
+//
 const GAME_WORDS = [
   'REACT',
   'JAVASCRIPT',
