@@ -56,7 +56,6 @@ export const getTasksInitialState = (): TaskState => {
     };
   }
 
-  // ! Cuidado, porque el objeto puede haber sido manipulado
   return result.data;
 };
 
