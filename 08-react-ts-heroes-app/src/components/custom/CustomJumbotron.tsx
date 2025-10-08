@@ -2,7 +2,7 @@ interface Props {
   title: string;
   description?: string;
 }
-
+//
 export const CustomJumbotron = ({ title, description }: Props) => {
   return (
     <div className="text-center mb-8">
