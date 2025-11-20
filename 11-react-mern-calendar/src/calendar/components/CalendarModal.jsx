@@ -1,14 +1,10 @@
 import { useMemo, useState, useEffect } from 'react';
 import { addHours, differenceInSeconds } from 'date-fns';
-
 import Swal from 'sweetalert2';
 import 'sweetalert2/dist/sweetalert2.min.css';
-
 import Modal from 'react-modal';
-
 import DatePicker, { registerLocale } from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-
 import es from 'date-fns/locale/es';
 import { useCalendarStore, useUiStore } from '../../hooks';
 
